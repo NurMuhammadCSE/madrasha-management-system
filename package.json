@@ -4,11 +4,14 @@
   "description": "",
   "main": "server.ts",
   "scripts": {
+    "start": "ts-node-dev --respawn --transpile-only arc/server.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Nur Muhammad",
   "license": "MIT",
   "devDependencies": {
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
     "typescript": "^5.0.4"
   },
   "dependencies": {
